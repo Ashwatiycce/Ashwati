@@ -25,7 +25,6 @@ To specify the position to be fuzzed, use the word "FUZZ" in the ffuf command.
 
 Directory and File Discovery
 You can find directories on a website with the following command. It uses the -w flag to provide a wordlist and the -u flag to specify the URL with "FUZZ" as the placeholder for fuzzing.
-
 ffuf -w wordlist.txt -u http://website.com/FUZZ
 <img width="483" alt="ffuf 4" src="https://github.com/Ashwatiycce/Ashwati/assets/140001632/49a62ed4-388e-4358-8208-0857be925d44">
 
